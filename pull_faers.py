@@ -11,9 +11,9 @@ How to run (from a terminal, in the folder where this file is saved):
   pip install requests pandas
   python pull_faers.py
 
-Optional: get a free API key at https://open.fda.gov/apis/authentication/
-and paste it into API_KEY below. Without one you're limited to 1,000 requests
-per day, which is still plenty for this script (it makes about 5).
+Get a free API key at https://open.fda.gov/apis/authentication/
+and put it in a file named .env in this folder:
+    FDA_API_KEY=your-key-here
 """
 
 import time
